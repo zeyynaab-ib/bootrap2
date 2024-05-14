@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="">
+  <!-- Lien CSS de Bootstrap -->
+    <!--Awesome pour les icônes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>   /* Styles CSS  */ 
+      body { font-family: 'Times New Roman', serif; margin: 0%; padding: 0; background-color:white; }
+  .navbar { background-image: url(background\ montre.jpg);background-size: cover;background-repeat: no-repeat;; color: #fff;padding: top 10%;padding: 200px; display: flex; justify-content: space-between;width: 100%;}
+  .brand-title { font-size: 60px;font-style: italic; }
+    .content { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-around; 
+      align-items: stretch; 
+      padding: 20px; 
+    }
+    .watch-card { margin: 10px; padding: 20px; border: 1px solid #ccc; border-radius: 5px; width: calc(22% - 25px); } 
+    .watch-card img { width: 100%; height: 280px;; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+    .watch-info { text-align: center; }
+    .watch-name { font-size: 20px; color:black; }
+    .watch-price { font-size: 18px; color: black; }
+    .buy-button { display: inline-block; background-color: #000; color: #fff; padding: 10px 20px; text-decoration: none; margin-top: 10px; }
+    .logoo { width: 100%; height: 250px;; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+    .container {
+  display:flex;
+  justify-content: space-between;
+}
+.container  {
+  width: 120%;
+  height: 285px;
+  padding: 0%;
+  margin:0%;
+  box-sizing: border-box;  
+}
+.footer {
+  text-align: left;
+  justify-content: space-around;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+   /* Media Queries */
+   @media screen and (max-width: 600px) {
+    .watch-card { width: 100%; }
+     /* Les cartes de montres prennent toute la largeur sur les petits écrans */
+  }
+ </style>
+   
+
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand-title">Beauties of Watches</div>
+   
+  
+  </div>
+  
+  </div>
+  <div class="content">
+       <!-- montre 1 -->
+       <div class="watch-card">
+          <img src="rolex.jpg" alt="Montre de Luxe">
+          <div class="watch-info">
+            <h3 class="watch-name">Rolex</h3>
+            <p class="watch-price">3830€</p>
+            <a href="lien_vers_page_achat1.html" class="buy-button">Acheter maintenant</a>
+          </div>
+        </div>
+         <!--  montre 2 -->
+      <div class="watch-card">
+          <img src="cartier.jpg" alt="Montre de Luxe">
+          <div class="watch-info">
+            <h3 class="watch-name">Cartier</h3>
+            <p class="watch-price">935€</p>
+            <a href="lien_vers_page_achat1.html" class="buy-button">Acheter maintenant</a>
+          </div>
+        </div>
+         <!-- montre 3 -->
+      <div class="watch-card">
+          <img src="bvlgari.jpg" alt="Montre de Luxe">
+          <div class="watch-info">
+            <h3 class="watch-name">Bvlgari</h3>
+            <p class="watch-price">17000€</p>
+            <a href="lien_vers_page_achat1.html" class="buy-button">Acheter maintenant</a>
+          </div>
+        </div>
+         <!-- montre 4 -->
+      <div class="watch-card">
+          <img src="Dior.jpg" alt="Montre de Luxe">
+          <div class="watch-info">
+            <h3 class="watch-name">Dior</h3>
+            <p class="watch-price">9000€</p>
+            <a href="lien_vers_page_achat1.html" class="buy-button">Acheter maintenant</a>
+          </div>
+  </div>    
+          <div class="container">
+            <img src="logo rolex .jpg" alt="image1">
+            <img src="logo carier.jpg" alt="Image 2">
+            <img src="logo bvlgari.jpg" alt="Image 3">
+            <img src="logo dior.jpg" alt="Image 4">
+          </div >
+</body>
+          
+ <footer>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-2 mb-3">
+          <h5><i class="fas fa-truck"></i> Livraison Offerte</h5>
+        </div>
+        <div class="col-12 col-md-2 mb-3">
+          <h5><i class="fas fa-thumbs-up"></i> Satisfait ou Remboursé</h5>
+        </div>
+        <div class="col-12 col-md-2 mb-3">
+          <h5>Recevez Nos Offres</h5>
+          <form>
+            <input type="email" class="form-control" placeholder="Adresse e-mail">
+            <button class="btn btn-primary mt-2">OK</button>
+          </form>
+        </div>
+        <div class="col-12 col-md-2 mb-3">
+          <h5>Suivez-nous</h5>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+               
+      
+
+
+
+
+</html>
